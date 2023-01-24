@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'androiddev',
     'latestvacancies',
     'skills',
+    'demand',
 ]
 
 MIDDLEWARE = [
