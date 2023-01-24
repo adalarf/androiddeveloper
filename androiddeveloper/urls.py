@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+
+import latestvacancies.views
+import skills.views
 from androiddev import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('latestvacancies', latestvacancies.views.latest_vacancies),
+    path('skills', skills.views.skills)
 ]

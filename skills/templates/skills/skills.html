@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'skills/css/skills.css' %}" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+    <div class = "head">
+        <div class="a">Android - разработчик</div>
+        <img class = "img" src="{% static 'androiddev/img/android.png' %}">
+    </div>
+    <div class = 'list'>
+        <div class = 'navigation'>Навигация</div>
+        <a>Главная</a>
+        <a><br>Востребованность</a>
+        <a><br>География</a>
+        <a><br>Навыки</a>
+        <a><br>Последние вакансии</a>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2015.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2015.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2016.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2016.png' %}"/>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2017.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2017.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2018.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2018.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2019.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2019.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2020.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2020.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2021.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2021.png' %}"/>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Название навыка</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for key,val in 2022.items %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <img src="{% static 'skills/img/2022.png' %}"/>
+</body>
+</html>
