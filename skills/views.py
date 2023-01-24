@@ -15,9 +15,6 @@ def skills(request):
                     android_vacancies.append(row)
             return android_vacancies
 
-        # print(func('2010'))
-        # print(len(func('2010')))
-        # print(sum(func('2011')) / len(func('2011')))
 
         value = get_android_vacancies()
 
