@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'latestvacancies',
     'skills',
     'demand',
+    'geography',
 ]
 
 MIDDLEWARE = [

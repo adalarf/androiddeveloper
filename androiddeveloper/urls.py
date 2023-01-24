@@ -15,16 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 import demand.views
 import latestvacancies.views
 import skills.views
-from androiddev import views
+import geography.views
+import androiddev.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', androiddev.views.home),
     path('latestvacancies', latestvacancies.views.latest_vacancies),
     path('skills', skills.views.skills),
-    path('demand', demand.views.demand)
+    path('demand', demand.views.demand),
+    path('geography', geography.views.geography),
 ]
