@@ -66,3 +66,128 @@ body{
     position:absolute;
     top: 550px;
 }
+
+.employment{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 920px;
+}
+
+.employment_list{
+    position:absolute;
+    top: 950px;
+    font-size:30px;
+}
+
+.pluses{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 1220px;
+}
+.pluses_list{
+    position:absolute;
+    top: 1250px;
+    font-size:30px;
+}
+
+.minuses{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 1420px;
+}
+
+.minuses_list{
+    position:absolute;
+    top: 1450px;
+    font-size:30px;
+}
+
+.instruments{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 1580px;
+}
+
+.java_img{
+    position:absolute;
+    width: 150px;
+    height: 250px;
+    top: 1600px;
+}
+
+.kotlin_img{
+    position:absolute;
+    width: 525px;
+    height: 225px;
+    top: 1650px;
+    left: 450px;
+}
+
+.androidstudio_img{
+    position:absolute;
+    width: 225px;
+    height: 225px;
+    top: 1620px;
+    left: 1150px;
+}
+.java{
+    position:absolute;
+    top: 1880px;
+    font-size:30px;
+    left: 40px;
+}
+
+.kotlin{
+    position:absolute;
+    top: 1880px;
+    font-size:30px;
+    left: 690px;
+}
+
+.androidstudio{
+    position:absolute;
+    top: 1880px;
+    font-size:30px;
+    left: 1170px;
+}
+
+.career{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 1980px;
+}
+
+.career_list{
+    position:absolute;
+    top: 2040px;
+    font-size:30px;
+}
+
+.howtobecome{
+    font-size:40px;
+    position: absolute;
+    left:280px;
+    top: 2240px;
+}
+
+.howtobecome_list{
+    position:absolute;
+    top: 2300px;
+    font-size:30px;
+}
+
+.footer{
+    position: absolute;
+    border: solid;
+    color: #d4d5d9;
+    background-color: #3c3d42;
+    border-color: #3c3d42;
+    top: 2800px;
+    font-size:20px;
+    padding: 5px 1400px 10px 30px;
+}

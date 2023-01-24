@@ -36,3 +36,14 @@ body{
     padding: 3px;
     padding-left: 100px
 }
+
+.footer{
+    position: absolute;
+    border: solid;
+    color: #d4d5d9;
+    background-color: #3c3d42;
+    border-color: #3c3d42;
+    top: 900px;
+    font-size:20px;
+    padding: 5px 1400px 10px 30px;
+}
